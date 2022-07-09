@@ -6,7 +6,20 @@
 /* navegador */
 
 header{
-    background-color: rgb(80, 214, 255);
+    background-image: linear-gradient(
+        90deg,
+        hsl(120deg 100% 25%) 0%,
+        hsl(110deg 43% 42%) 20%,
+        hsl(107deg 30% 55%) 29%,
+        hsl(105deg 30% 69%) 36%,
+        hsl(103deg 27% 82%) 43%,
+        hsl(0deg 0% 96%) 50%,
+        hsl(14deg 100% 89%) 57%,
+        hsl(14deg 100% 79%) 64%,
+        hsl(12deg 100% 70%) 71%,
+        hsl(10deg 100% 61%) 80%,
+        hsl(0deg 100% 50%) 100%
+    );
 }
 
 .header__nav {
@@ -39,8 +52,23 @@ header{
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color:  coral;
+    background-color:  linear-gradient( green, white, red);
+    background-image: linear-gradient(
+        90deg,
+        hsl(120deg 100% 25%) 0%,
+        hsl(110deg 43% 42%) 20%,
+        hsl(107deg 30% 55%) 29%,
+        hsl(105deg 30% 69%) 36%,
+        hsl(103deg 27% 82%) 43%,
+        hsl(0deg 0% 96%) 50%,
+        hsl(14deg 100% 89%) 57%,
+        hsl(14deg 100% 79%) 64%,
+        hsl(12deg 100% 70%) 71%,
+        hsl(10deg 100% 61%) 80%,
+        hsl(0deg 100% 50%) 100%
+    );
     color: black;
+
 }
 
 
@@ -55,7 +83,7 @@ h1 {
 h2 {
     color:rgba(133, 11, 11, 0.925);
     font-family: 'League Gothic', sans-serif;
-    font-size:  20px;
+    font-size:  25px;
     text-align: center;
 }
 
@@ -70,10 +98,38 @@ a{
 }
 
 .image__item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+}
+
+.image__direction{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* Inicio */
+
+.inicio__imagen{
+    display: flex;
+    text-align: center;
     width: 400px;
 }
 
-/* geografia */
+/* Arte */
+
+.video__direction{
+    display: flex;
+    justify-content: center;
+}
+
+/* Geografia */
 
 .geography__contents{
     display: flex;
@@ -100,14 +156,27 @@ a{
 }
 
 .capital__icon:hover{
-    transform: scale(2.5,2.5);
+    transform: scale(1.5,1.5);
     transition: (0.5s);
 } 
 
 /* footer */
 
 footer{
-    background-color: rgb(80, 214, 255);
+    background-image: linear-gradient(
+        90deg,
+        hsl(120deg 100% 25%) 0%,
+        hsl(110deg 43% 42%) 20%,
+        hsl(107deg 30% 55%) 29%,
+        hsl(105deg 30% 69%) 36%,
+        hsl(103deg 27% 82%) 43%,
+        hsl(0deg 0% 96%) 50%,
+        hsl(14deg 100% 89%) 57%,
+        hsl(14deg 100% 79%) 64%,
+        hsl(12deg 100% 70%) 71%,
+        hsl(10deg 100% 61%) 80%,
+        hsl(0deg 100% 50%) 100%
+    );
     display: grid;
     width: 100vw;
     grid-template-columns: 1 fr;
@@ -120,10 +189,10 @@ footer{
     font-size: 16px;
     grid-area: indice;
     grid-column: 1/1;
-    grid-row: 1/2;
-    list-style: none;
-    padding: 10px;
+    grid-row: 1/1;
+    padding: 16px;
     font-size: 15px;
+    padding-bottom: 0px;
 }
 
 
@@ -133,20 +202,26 @@ footer{
     grid-area: redes;
     grid-column: 2/2;
     grid-row: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+
 
 .footer__derechos{
     grid-area: derechos;
     grid-column: 2/2;
     grid-row: 2/2;
+    display: flex;
+    justify-content: center;
     color: black;
     font-size: 20px;
 }
 
 
 .footer__icon{
-    width: 70px;
-    height:70px;
+    width: 50px;
+    height:50px;
     margin: 16px;
     align-items: center;
 }
@@ -156,8 +231,18 @@ footer{
     transition: all(0.5s);
 }
 
-/* responsive mobil */
 
-/* imagenes */
+/* Media Querie */
+/* Responsive Mobil */
+@media (min-width: 320px) and (max-width:575px) {
 
+    .image__item {
+        width: 300px;
+        }
+}
+
+/* Responsive Tablet */
+@media (min-width: 576px) and (max-width:992px) {
+    
+}
 
