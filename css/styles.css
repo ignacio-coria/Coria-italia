@@ -247,6 +247,9 @@ footer{
 
 /* Responsive Tablet */
 @media (min-width: 576px) and (max-width:992px) {
-    
+
+.footer__icon{
+    width: 40px;
+}
 }
 
