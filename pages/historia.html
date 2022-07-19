@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=League+Gothic&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!-- Icono -->
     <link rel="shortcut icon" href="../resources/favicon.ico." type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Css -->
     <link rel="stylesheet" href="../css/styles.css">
     <title>Historia italiana</title>
@@ -22,17 +24,37 @@
 <body>
     <header>
         <!-- navegador -->
-        <nav class="header__nav">
-            <img class="header__logo"  src="../resources/favicon.ico">
-            <ul class="header__list">
-                <li class="header__item"><a class="efect__link" href="../index.html">inicio</a> </li>
-                <li class="header__item"><a class="efect__link" href="#">historia</a></li>
-                <li class="header__item"><a class="efect__link" href="geografia.html">geografia</a></li>
-                <li class="header__item"><a class="efect__link" href="cocina.html">cocina</a></li>
-                <li class="header__item"><a class="efect__link" href="arte.html">arte</a></li>
-                <li class="header__item"><a class="efect__link" href="contacto.html">contacto</a></li>
-        </ul>
-    </nav>
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../resources/favicon.ico" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="geografia.html">Geografia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="cocina.html">Cocina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="arte.html">Arte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 <!-- main -->
     <main>
@@ -51,16 +73,34 @@
     </main>
 <!-- footer -->
 <footer>
-    <div>
-        <ul>
-            <li class="footer__indice"><a class="efect__navfoot" href="../index.html">inicio</a> </li>
-            <li class="footer__indice"><a class="efect__navfoot" href="#">historia</a></li>
-            <li class="footer__indice"><a class="efect__navfoot" href="geografia.html">geografia</a></li>
-            <li class="footer__indice"><a class="efect__navfoot" href="cocina.html">cocina</a></li>
-            <li class="footer__indice"><a class="efect__navfoot" href="arte.html">arte</a></li>
-            <li class="footer__indice"><a class="efect__navfoot" href="contacto.html">contacto</a></li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="geografia.html">Geografia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cocina.html">Cocina</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="arte.html">Arte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="footer__redes" >
     <a  href="https://www.facebook.com">  <img class="footer__icon" src="../resources/facebook-brands.svg" ></a>
     <a  href="https://www.instagram.com"> <img class="footer__icon" src="../resources/instagram-brands.svg"></a>
@@ -68,5 +108,7 @@
     </div>
     <p class="footer__derechos">Derechos de imagenes y videos reservados a quien los posea</p>
 </footer>
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -51,6 +51,7 @@ header{
 }
 
 
+
 /* main */
 
 body {
@@ -235,6 +236,35 @@ footer{
 /* Media Querie */
 /* Responsive Mobil */
 @media (min-width: 320px) and (max-width:575px) {
+
+    footer{
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1 fr;
+        grid-template-rows: 3 fr;
+        grid-template-areas: "indice"
+                            "redes"
+                            "derechos"
+    }
+
+    .footer__redes{
+        grid-area: redes;
+        grid-column: 1/1;
+        grid-row: 2/2;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .footer__derechos{
+        grid-area: derechos;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 20px;
+    }
 
     .image__item {
         width: 300px;
