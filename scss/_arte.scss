@@ -1,0 +1,22 @@
+/* Arte */
+
+.video{
+
+    &__direction{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__description{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.color__artext{
+    text-align: center;
+    display: inline;
+    color: rgb(218, 218, 233);
+    background-color: rgb(34, 33, 32);
+}

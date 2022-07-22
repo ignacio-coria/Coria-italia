@@ -1,0 +1,31 @@
+/* header   */
+.header{
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        justify-content: space-between;
+        padding-right: 16px;
+
+    }
+
+    &__logo {
+        display: inline;
+        justify-content:flex-start;
+    }
+
+    &__list {
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: inline;
+    }
+
+    &__link:hover{
+        background-color: rgb(0, 128, 0);
+        border-radius: 5px;
+    }
+}
