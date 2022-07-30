@@ -44,9 +44,11 @@ a {
   text-decoration: none; }
 
 .text {
-  font-size: 20px;
-  padding: 16px;
-  font-family: 'Roboto', sans-serif; }
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #dadae9;
+  background-color: rgba(34, 33, 32, 0.753); }
 
 .image__direction {
   display: flex;
@@ -58,6 +60,9 @@ a {
 ul {
   list-style: none; }
 
+.text__contain {
+  background-color: #030303; }
+
 /* Arte */
 .video__direction {
   display: flex;
@@ -66,12 +71,6 @@ ul {
 .video__description {
   display: flex;
   justify-content: center; }
-
-.color__artext {
-  text-align: center;
-  display: inline;
-  color: #dadae9;
-  background-color: #222120; }
 
 /* Geografia */
 .geography__contents {
@@ -181,3 +180,9 @@ __main {
 * {
   margin: 0px;
   padding: 0px; }
+
+.color__artext {
+  text-align: center;
+  display: inline;
+  color: #dadae9;
+  background-color: #222120; }
