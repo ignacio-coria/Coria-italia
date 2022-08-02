@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/* letras */
+/* colores */
+/* tamaño */
+/* tamaño texto */
 /* header   */
 .header__nav {
   display: flex;
@@ -23,19 +28,19 @@
 
 /* main */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: linear-gradient(to right, #008000 33%, #fbfbfc 33% 66%, #ff0000 66%);
-  color: black; }
+  color: #57b11b; }
 
 h1 {
   color: darkgreen;
-  font-family: 'League Gothic', sans-serif;
-  font-size: 30px;
+  font-family: "League Gothic", sans-serif;
+  font-size: 2rem;
   text-align: center; }
 
 h2 {
-  color: rgba(133, 11, 11, 0.925);
-  font-family: 'League Gothic', sans-serif;
+  color: red;
+  font-family: "League Gothic", sans-serif;
   font-size: 25px;
   text-align: center; }
 
@@ -44,10 +49,10 @@ a {
   text-decoration: none; }
 
 .text {
-  font-size: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  color: #dadae9;
+  color: #57b11b;
   background-color: rgba(34, 33, 32, 0.753); }
 
 .image__direction {
@@ -59,9 +64,6 @@ a {
 
 ul {
   list-style: none; }
-
-.text__contain {
-  background-color: #030303; }
 
 /* Arte */
 .video__direction {
@@ -141,6 +143,30 @@ ul {
   transform: scale(1.5, 1.5);
   transition: all(0.5s); }
 
+/* Map */
+/* Each */
+.color-twitter {
+  background-color: lightblue; }
+
+.color-facebook {
+  background-color: blue; }
+
+.color-instagram {
+  background-color: #c54157; }
+
+.tamaño-h1 {
+  font-size: 3rem;
+  color: darkgreen; }
+
+.tamaño-h2 {
+  font-size: 2rem;
+  color: red; }
+
+.tamaño-h3 {
+  font-size: 1rem;
+  color: red; }
+
+/*Mixin */
 /* Media Querie */
 /* Responsive Mobil */
 @media (min-width: 320px) and (max-width: 575px) {
@@ -185,4 +211,4 @@ __main {
   text-align: center;
   display: inline;
   color: #dadae9;
-  background-color: #222120; }
+  background-color: rgba(0, 0, 0, 0.575); }

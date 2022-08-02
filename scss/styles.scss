@@ -1,8 +1,10 @@
+@import "variables";
 @import "header";
 @import "main";
 @import "arte";
 @import "geografia";
 @import "footer";
+@import "operators";
 @import "mediaqueries";
 *{
     margin: 0px;
@@ -13,5 +15,5 @@
     text-align: center;
     display: inline;
     color: rgb(218, 218, 233);
-    background-color: rgb(34, 33, 32);
+    background-color: rgba(0, 0, 0, 0.575);
 }

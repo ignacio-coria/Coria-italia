@@ -1,0 +1,41 @@
+/* Map */
+
+$redes: (
+    twitter: lightblue, 
+    facebook: blue,
+    instagram: rgb(197, 65, 87)
+);
+
+/* Each */
+
+@each $name, $color in $redes{
+.color-#{$name} {
+    background-color: #{$color};
+}
+}
+
+$titulos:(
+    h1: 3rem,
+    h2: 2rem,
+    h3: 1rem
+);
+@each $title, $size in $titulos{
+    .tamaño-#{$title}{
+        font-size: #{$size};
+        @if ($size <=2){
+            color: red;
+        }
+        @if ($size>2){
+            color:darkgreen;
+        }
+    }
+
+}
+
+
+/*Mixin */
+
+@mixin direction($display, $justify,){
+    display: $display;
+    justify-content: $justify;
+}
