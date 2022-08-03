@@ -30,7 +30,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(to right, #008000 33%, #fbfbfc 33% 66%, #ff0000 66%);
-  color: #57b11b; }
+  color: whitesmoke; }
 
 h1 {
   color: darkgreen;
@@ -52,7 +52,7 @@ a {
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  color: #57b11b;
+  color: whitesmoke;
   background-color: rgba(34, 33, 32, 0.753); }
 
 .image__direction {
@@ -86,7 +86,8 @@ ul {
 
 .capital__name {
   text-align: center;
-  font-weight: 100; }
+  font-weight: 100;
+  color:black;}
 
 .capital__icon {
   align-items: column;
@@ -96,13 +97,21 @@ ul {
   transform: scale(1.5, 1.5);
   transition: 0.5s; }
 
-/* footer */
+  /* Historia */
+
+.historia__text{
+  list-style: none;
+}
+
+  /* Footer */
 .footer__main {
   display: grid;
   width: 100vw;
   grid-template-columns: 1 fr;
   grid-template-rows: 3 fr;
-  grid-template-areas: "indice" "redes" "derechos"; }
+  grid-template-areas: "indice"
+ "redes"
+ "derechos"; }
 
 .footer__indice {
   font-size: 16px;
@@ -176,7 +185,9 @@ __main {
     width: 100vw;
     grid-template-columns: 1 fr;
     grid-template-rows: 1 fr;
-    grid-template-areas: "indice" "redes" "derechos"; }
+    grid-template-areas: "indice"
+ "redes"
+ "derechos"; }
   __redes {
     grid-area: redes;
     grid-column: 1/1;
