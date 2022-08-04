@@ -86,8 +86,7 @@ ul {
 
 .capital__name {
   text-align: center;
-  font-weight: 100;
-  color:black;}
+  font-weight: 100; }
 
 .capital__icon {
   align-items: column;
@@ -97,21 +96,13 @@ ul {
   transform: scale(1.5, 1.5);
   transition: 0.5s; }
 
-  /* Historia */
-
-.historia__text{
-  list-style: none;
-}
-
-  /* Footer */
+/* footer */
 .footer__main {
   display: grid;
   width: 100vw;
   grid-template-columns: 1 fr;
   grid-template-rows: 3 fr;
-  grid-template-areas: "indice"
- "redes"
- "derechos"; }
+  grid-template-areas: "indice" "redes" "derechos"; }
 
 .footer__indice {
   font-size: 16px;
@@ -185,9 +176,7 @@ __main {
     width: 100vw;
     grid-template-columns: 1 fr;
     grid-template-rows: 1 fr;
-    grid-template-areas: "indice"
- "redes"
- "derechos"; }
+    grid-template-areas: "indice" "redes" "derechos"; }
   __redes {
     grid-area: redes;
     grid-column: 1/1;
