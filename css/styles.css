@@ -74,10 +74,26 @@ ul {
   display: flex;
   justify-content: center; }
 
-/* Geografia */
+  .carousel__imagen{
+  width: 250px;
+  }
+
+  .piedad__imagen{
+width: 400px;
+}
+
+.text__descripcion{
+  display:flex ;
+  text-align: justify;
+  justify-content: center;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+  /* Geografia */
 .geography__contents {
   display: flex;
-  flex-direction :column; }
+  flex-direction: column; }
 
 .geography__title {
   padding: 16px;
@@ -85,8 +101,7 @@ ul {
   font-weight: bold; }
 
 .capital__name {
-  padding: 5px;
-  margin: 5px;
+  text-align: center;
   font-weight: 100; }
 
 .capital__icon {
@@ -96,27 +111,6 @@ ul {
 .capital__icon:hover {
   transform: scale(1.5, 1.5);
   transition: 0.5s; }
-
-.tarjeta__capitales{
-  display:flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content:flex-start;
-  align-items: center;
-  margin: 10px;
-  background-color: rgba(27, 8, 8, 0.829);
-  border: #000700 3px solid;
-  border-radius: 5px;
-}
-
-.titulo__insular{
-  margin: 10px;
-  text-align: start;
-}
-.capital__insular{
-  margin: 10px;
-}
-
 
 /* footer */
 .footer__main {
@@ -223,8 +217,6 @@ __main {
 
 .image__item {
   width: 250px; }
-
-
 
 /* Responsive Tablet */
 @media (min-width: 576px) and (max-width: 992px) {
