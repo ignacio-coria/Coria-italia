@@ -149,28 +149,33 @@ ul {
 .capital__insular{
   margin: 20px;
 }
+
+/* Contactos */
+.contacto__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
 /* footer */
+
 .footer__main {
   display: grid;
   width: 100vw;
   grid-template-columns: 1 fr;
-  grid-template-rows: 3 fr;
-  grid-template-areas: "indice"
+  grid-template-rows: 2 fr;
+  grid-template-areas: 
  "redes"
  "derechos"; }
 
-.footer__indice {
-  font-size: 16px;
-  grid-area: indice;
-  grid-column: 1/1;
-  grid-row: 1/1;
-  font-size: 15px;
-  padding-bottom: 0px; }
+
 
 .footer__redes {
   grid-area: redes;
   grid-column: 1/1;
-  grid-row: 2/2;
+  grid-row: 1/1;
   display: flex;
   justify-content: center;
   align-items: flex-end; }
@@ -178,7 +183,7 @@ ul {
 .footer__derechos {
   grid-area: derechos;
   grid-column: 1/1;
-  grid-row: 3/3;
+  grid-row: 2/2;
   display: flex;
   justify-content: center;
   color: black;
