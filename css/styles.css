@@ -69,29 +69,49 @@ ul {
 /* Arte */
 .video__direction {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 16px; }
 
 .video__description {
   display: flex;
-  justify-content: center; }
+  justify-content: center; 
+  font-weight: bold;
+  color: black;
+}
 
-  .carousel__imagen{
+
+.carousel__imagen{
   width: 250px;
-  }
+}
 
-  .piedad__imagen{
-width: 400px;
+.piedad__imagen{
+  width: 350px;
 }
 
 .text__descripcion{
-  display:flex ;
-  text-align: justify;
-  justify-content: center;
-  padding: 10px;
-  color: black;
-  font-weight: bold;
+  text-align: center;
+  color:black;
+  font-weight:bold;
 }
-  /* Geografia */
+
+
+.arte__musica{
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor__arte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen__cristo{
+  width: 300px;
+}
+
+/* Geografia */
 .geography__contents {
   display: flex;
   flex-direction: column; }
@@ -102,7 +122,6 @@ width: 400px;
   font-weight: bold; }
 
 .capital__name {
-  padding: 16px;
   text-align: center;
   font-weight: 100; }
 
@@ -114,7 +133,7 @@ width: 400px;
   transform: scale(1.5, 1.5);
   transition: 0.5s; }
 
-  .tarjeta__capitales{
+.tarjeta__capitales{
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -123,15 +142,13 @@ width: 400px;
   text-align: center;
   border: black 3px solid;
   border-radius: 5px;
-  
-  }
-
-  .titulo__insular{
+}
+.titulo__insular{
   margin: 20px;
-  }
-  .capital__insular{
+}
+.capital__insular{
   margin: 20px;
-  }
+}
 /* footer */
 .footer__main {
   display: grid;
@@ -238,9 +255,6 @@ __main {
 .image__item {
   width: 250px; }
 
-.tarjeta__capitales{
-  flex-wrap: wrap;
-}
 /* Responsive Tablet */
 @media (min-width: 576px) and (max-width: 992px) {
   .footer__icon {
