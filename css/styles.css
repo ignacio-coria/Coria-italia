@@ -33,13 +33,13 @@ body {
   color: whitesmoke; }
 
 h1 {
-  color: darkgreen;
+  color: black;
   font-family: "League Gothic", sans-serif;
   font-size: 2rem;
   text-align: center; }
 
 h2 {
-  color: red;
+  color: black;
   font-family: "League Gothic", sans-serif;
   font-size: 25px;
   text-align: center; }
@@ -123,7 +123,8 @@ ul {
 
 .capital__name {
   text-align: center;
-  font-weight: 100; }
+  font-weight: 70px;
+  margin: 16px; }
 
 .capital__icon {
   align-items: column;
@@ -259,6 +260,16 @@ __main {
 
 .image__item {
   width: 250px; }
+
+/* Geografia */
+  .tarjeta__capitales{
+    flex-wrap: wrap;
+  }
+/* Contacto */
+.contacto__form{
+    flex-wrap: wrap;
+    margin: 16px;
+}
 
 /* Responsive Tablet */
 @media (min-width: 576px) and (max-width: 992px) {
