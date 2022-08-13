@@ -58,7 +58,7 @@ a {
 
 .image__direction {
   display: flex;
-  justify-content: center; }
+  justify-content: center;}
 
 .image__item:hover {
   transform: scale(1.02); }
@@ -97,8 +97,11 @@ ul {
 
 .arte__musica{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+
 }
+
 
 .contenedor__arte{
   display: flex;
@@ -159,7 +162,21 @@ ul {
   text-align: center;
 }
 
+.bottom__form{
+  border: 5px;
+}
+/* historia */
 
+.historia__text{
+  list-style: none;
+}
+.imagen__contenedor{
+  display: flex;
+  justify-content: center;
+}
+.historia__imagen{
+  width: 300px;
+}
 /* footer */
 
 .footer__main {
@@ -204,6 +221,9 @@ ul {
   transform: scale(1.5, 1.5);
   transition: all(0.5s); }
 
+.direccion__derechos{
+  padding: 16px;
+}
 /* Map */
 /* Each */
 .color-twitter {
@@ -270,6 +290,7 @@ __main {
     flex-wrap: wrap;
     margin: 16px;
 }
+/* arte */
 
 /* Responsive Tablet */
 @media (min-width: 576px) and (max-width: 992px) {
